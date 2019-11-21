@@ -1,0 +1,133 @@
+
+body
+{
+  background-color: gray;
+  margin-top: 60px;
+}
+
+
+.rojo
+{
+background-color: red;
+width: 350px;
+height: 90px;
+float: left;
+}
+
+.verde
+{
+background-color: green;
+width: 350px;
+height: 90px;
+float: left;
+}
+
+.blanco
+{
+background-color: white;
+width: 350px;
+height: 90px;
+float: left;
+}
+
+
+@media (max-width: 575.98px)
+
+{
+  .rojo
+  {
+  background-color: red;
+  width: 160px;
+  height: 90px;
+  }
+  .blanco
+  {
+  background-color: green;
+  width: 160px;
+  height: 90px;
+  }
+  .verde
+  {
+  background-color: white;
+  width: 160px;
+  height: 90px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px)
+
+{
+  .rojo
+  {
+  background-color: green;
+  width: 180px;
+  height: 90px;
+  }
+  .blanco
+  {
+  background-color: red;
+  width: 180px;
+  height: 90px;
+  }
+  .verde
+  {
+  background-color: white;
+  width: 180px;
+  height: 90px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+  .rojo
+  {
+  background-color: green;
+  width: 225px;
+  height: 90px;
+  }
+  .blanco
+  {
+  background-color: red;
+  width: 225px;
+  height: 90px;
+  }
+  .verde
+  {
+  background-color: white;
+  width: 225px;
+  height: 90px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+
+{
+  .rojo
+  {
+  background-color: red;
+  width: 320px;
+  height: 90px;
+  }
+  .blanco
+  {
+  background-color: white;
+  width: 320px;
+  height: 90px;
+  }
+  .verde
+  {
+  background-color: green;
+  width: 320px;
+  height: 90px;
+  }
+}
+
+pre
+{
+  margin-left: -150px;
+  font-size: 20px;
+  color: yellow;
+  padding: 150px;
+}
